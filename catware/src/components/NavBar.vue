@@ -1,7 +1,7 @@
 <!--
  * @Author: leung
  * @Date: 2022-02-02 21:22:11
- * @LastEditTime: 2022-02-15 13:01:08
+ * @LastEditTime: 2022-02-16 12:53:04
  * @LastEditors: leung
  * @Description: Navigator bar component
 -->
@@ -32,7 +32,7 @@
                 <a href="/home" aria-label="AboutUs">AboutUs</a>
             </div>
             <div class="nav-links-item">
-                <a href="/home" aria-label="JoinUs">JoinUs</a>
+                <a href="/regist" aria-label="JoinUs">JoinUs</a>
             </div>
         </nav>
         </div>
