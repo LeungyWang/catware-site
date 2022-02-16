@@ -1,15 +1,13 @@
 <!--
  * @Author: leung
  * @Date: 2022-02-02 20:04:26
- * @LastEditTime: 2022-02-14 13:07:53
+ * @LastEditTime: 2022-02-15 12:24:53
  * @LastEditors: leung
  * @Description: 
 -->
 <template>
-    <div class="home">
-        <nav-bar></nav-bar>
-        <home-container></home-container>
-    </div>
+      <nav-bar></nav-bar>
+      <home-container></home-container>
 </template>
 
 <script>
@@ -25,8 +23,3 @@ export default {
   }
 }
 </script>
-<style scoped>
-    .home{
-      height: 600px;
-    }
-</style>

@@ -1,7 +1,7 @@
 <!--
  * @Author: leung
  * @Date: 2022-02-02 21:22:11
- * @LastEditTime: 2022-02-04 23:22:16
+ * @LastEditTime: 2022-02-15 13:01:08
  * @LastEditors: leung
  * @Description: Navigator bar component
 -->
@@ -31,6 +31,9 @@
             <div class="nav-links-item">
                 <a href="/home" aria-label="AboutUs">AboutUs</a>
             </div>
+            <div class="nav-links-item">
+                <a href="/home" aria-label="JoinUs">JoinUs</a>
+            </div>
         </nav>
         </div>
     </div>
@@ -51,6 +54,7 @@ export default {
     border-bottom: 2px solid #eaecef;
     background-color: #ffffff;
     box-sizing: border-box;
+    top: 0;
     left: 0;
     z-index: 20;
     height: 3.6rem;

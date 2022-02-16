@@ -1,7 +1,7 @@
 <!--
  * @Author: leung
  * @Date: 2022-01-31 17:05:56
- * @LastEditTime: 2022-02-02 22:00:23
+ * @LastEditTime: 2022-02-15 12:41:56
  * @LastEditors: leung
  * @Description: 
 -->
@@ -9,5 +9,8 @@
     <router-view></router-view>
 </template>
 
-<style>
+<style scoped>
+    body{
+        height: 600px;
+    }
 </style>

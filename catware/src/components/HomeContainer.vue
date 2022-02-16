@@ -1,7 +1,7 @@
 <!--
  * @Author: leung
  * @Date: 2022-02-10 12:36:37
- * @LastEditTime: 2022-02-14 13:04:21
+ * @LastEditTime: 2022-02-15 13:07:07
  * @LastEditors: leung
  * @Description: Home container component
 -->
@@ -14,8 +14,11 @@
                         <h1>Hi, this is Catware.</h1>
                         <p>We are software engineer, hardware engineer</p>
                         <p>OR... a cat</p>
+                        <div class="home-button">
                         <button>AboutUs</button>
-                        <img src="../assets/cat.jpg" alt="">
+                        <button>JoinUs</button>
+                        </div>
+                        <img src="../assets/cat.jpeg" alt="">
                     </div>
                 </div>
             </div>
@@ -33,14 +36,14 @@ export default {
 <style scoped>
     .home-container{
         margin-top: 10px;
-        height: 100%;
+        height: 1000px;
         display: block;
     }
 
     .content{
         position: relative;
-        height: calc(100rem - 8rem);
-        max-height: 1300px;
+        height: 100%;
+        /* max-height: 1300px; */
         padding-top: 3.6rem;
     }
 
@@ -84,7 +87,7 @@ export default {
     }
 
     .home-desc button{
-        display: block;
+        display: inline;
         border: 0;
         outline: 0;
         cursor: pointer;
@@ -93,7 +96,12 @@ export default {
         letter-spacing: 4px;
         color: #fff;
         padding: 8px 32px;
+        /* margin-left: 10px; */
         background: #000;
         border-radius: 8px;
+    }
+
+    .home-desc button:nth-child(2){
+        margin-left: 10px;
     }
 </style>
