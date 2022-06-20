@@ -1,7 +1,7 @@
 <!--
  * @Author: leung
  * @Date: 2022-02-02 21:22:11
- * @LastEditTime: 2022-02-16 12:53:04
+ * @LastEditTime: 2022-06-14 21:03:28
  * @LastEditors: leung
  * @Description: Navigator bar component
 -->
@@ -20,10 +20,10 @@
         <div class="nav-links-wrapper">
         <nav class="nav-links can-hide">
             <div class="nav-links-item">
-                <a href="/home" aria-label="Software">Software</a>
+                <a href="/software" aria-label="Software">Software</a>
             </div>
             <div class="nav-links-item">
-                <a href="/home" aria-label="Hardware">Hardware</a>
+                <a href="/hardware" aria-label="Hardware">Hardware</a>
             </div>
             <div class="nav-links-item">
                 <a href="/home" aria-label="Cat">Cat</a>

@@ -1,7 +1,7 @@
 /*
  * @Author: leung
  * @Date: 2022-02-02 19:40:25
- * @LastEditTime: 2022-02-16 12:53:08
+ * @LastEditTime: 2022-06-14 21:07:51
  * @LastEditors: leung
  * @Description: 
  */
@@ -12,6 +12,7 @@ import {createRouter, createWebHistory} from 'vue-router'
 const Home = () => import('@/views/Home.vue')
 const About = () => import('@/views/About.vue')
 const Regist = () => import('@/views/Regist.vue')
+const Category = () => import('@/views/Category.vue')
 
 
 const routes = [
@@ -35,6 +36,16 @@ const routes = [
     path: '/regist',
     name: 'Regist',
     component: Regist
+  },
+  {
+    path: '/software',
+    name: 'SoftWareCategory',
+    component: Category
+  },
+  {
+    path: '/hardware',
+    name: 'HardWareCategory',
+    component: Category
   }
 ]
 
